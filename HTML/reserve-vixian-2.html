@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve</title>
+    <link rel="stylesheet" href="../css/Reserve.css">
+    <script src="../javascript/Reserve.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="../html/home.html"><img src="../asset/logo_fix_4-removebg-preview.png" alt=""></a>
+        </div>
+        <div class="navbar">
+            <div class="home">
+                <a href="../html/home.html">Home</a>
+            </div>
+    
+            <div class="dropdown">
+                <button class="dropbtn">Products</button>
+                <div class="product-content">
+                    <a href="../html/vixian.html">Vixian</a>
+                    <a href="../html/kawasako.html">Kawasako</a>
+                </div>
+            </div>
+    
+            <div class="gallery">
+                <a href="../html/Gallery.html">Gallery</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="pic-price">
+            <img src="../asset/vixion 2.png" alt="">
+            <br>
+            <div class= "price">Price: Rp. 31.500.000</div>
+        </div>
+        <div class="description">
+            Description:<br>
+            Engine 155CC LC4V with VVA<br>
+            Monocross suspension<br>
+            Sporty under cowl 
+        </div>
+        <div class="quantity">
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantityID" name="quantity">
+            <div class="color-select">
+                <label for ="color">Choose a color:</label><br>
+                <select name="color" id="color">
+                    <option value ="none">None</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="black">Black</option>
+                    <option value="pink">Pink</option>
+                </select>
+            </div>
+            <a href="../html/personal.html">
+                <input type="button" onclick="myfunction()" value="Buy Now">
+            </a>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-slogan">
+            <h3>&copy; 2021 YBIKE Co.</h3>
+        </div>
+    
+        <div class="footer-left">
+            <div class="footer-logo">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr">
+                    <img src="../asset/fb_logo-removebg-preview.png" alt="">
+                </a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://twitter.com/">
+                    <img src="../asset/twitter logo.png" alt="">
+                </a>
+            </div>
+            <div class="footer-logo">
+                <a href="https://www.instagram.com/">
+                    <img src="../asset/instalogo.png" alt="">
+                </a>
+            </div>
+        </div>
+</body>
+</html>
