@@ -1,0 +1,201 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  font-family: 'Poppins',sans-serif;
+  background: #5c5c5c;
+}
+
+/* head */
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5c5c5c;
+    
+}
+
+.logo img{
+  width: 250px;
+  height: 150px;
+}
+
+.navbar {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.product-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.product-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.product-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .product-content {
+  display: block;
+}
+/*  */
+.c1{
+    margin:15px
+}
+
+.c2{
+    margin:15px;
+}
+
+.cont{
+    height: 20vw;
+    width: 30vw;
+    position: relative;
+}
+
+.c1 .image-1{
+    height: 20vw;
+    width: 30vw;
+    display: block;
+}
+
+.ov{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.cont:hover .ov{
+    opacity: 1;
+}
+
+
+.c1 .img1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.c1 .image-1:hover{
+    opacity: 50%;
+}
+
+.c1 h1{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.c2 .img2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.c2 .image-2:hover{
+    opacity: 50%;
+}
+
+.c2 h2{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.c2 .image-2{
+    height:20vw;
+    width: 30vw;
+    display: block;
+}
+
+.footer{
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    margin-right: 2%; 
+}
+
+.footer-logo{
+   
+    padding: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 100px;
+}
