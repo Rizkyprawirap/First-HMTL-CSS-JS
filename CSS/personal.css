@@ -1,0 +1,140 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background: #5c5c5c;
+}
+
+/* head */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5c5c5c;
+    
+}
+
+.logo img{
+  width: 250px;
+  height: 150px;
+}
+
+.navbar {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.product-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.product-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.product-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .product-content {
+  display: block;
+}
+
+.personal-form{
+    border-radius: 8px;
+    box-shadow: 0 0 8px black;
+    width: 500px;
+    margin: auto;
+    display: grid;
+    gap: 16px;
+    padding: 16px;
+    background-color:lightskyblue;
+
+    margin-top: 150px;
+    
+ 
+ }
+
+ .personal-form h1{
+    
+    text-align: center;
+ 
+ }
+ 
+ .content-form{
+     display: flex;
+     flex-direction: column;
+     padding: 8px;
+ }
+
+
+ .footer{
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    margin-right: 2%; 
+}
+
+.footer-logo{
+   
+    padding: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 100px;
+}
